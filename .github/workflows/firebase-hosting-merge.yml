@@ -17,3 +17,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_A_V_AV }}'
           channelId: live
           projectId: a-v-av
+          entryPoint: "./firebase" 
