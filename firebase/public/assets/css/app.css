@@ -1,0 +1,59 @@
+.appItem {
+	border: solid 1px gray;
+	margin: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+	display: flex;
+	cursor: pointer;
+	position: relative;
+	background-color: #c7cbce;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+
+.appItem .icon {
+	height: 80px;
+}
+
+.small .icon{
+	height: 30px;
+}
+
+.appItem .icon > img {
+	height: 100%;
+	opacity: .8;
+}
+
+.appItem .info {
+	padding: 2px;
+}
+
+.small .info .extra{
+	display: none;
+}
+
+.appItem .info .title {
+	overflow: hidden;
+	white-space: break-spaces;
+	text-overflow: ellipsis;
+	line-height: 30px;
+	color: #000;
+}
+
+.appItem .info .extra {
+	font-size: .8em;
+	color: #000;
+}
+
+.appItem .countInfo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	flex-direction: column;
+}

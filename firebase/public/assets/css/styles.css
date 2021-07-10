@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }
+
+html, body, div, ul, li, span, h1, h3, blockquote, p, h4 { margin: 0; padding: 0; border: 0; vertical-align: baseline; font-family: "Courier New", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif; -webkit-tap-highlight-color: transparent; }
+
+body, html { height: 100%; }
+
+.page { height: 100%; display: flex; flex-direction: column; }
+
+.content { flex: 1 1 auto; overflow: hidden; height: inherit; padding: 5px; }
+
+.content ul { margin: 15px; }
+
+.content li { padding: 5px; }
+
+.content ul a { text-decoration: none; color: inherit; }
+
+.header { width: 100%; z-index: 1000; color: #FFF; background: #1fb5b5; font-size: 20px; box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 2px 9px 1px rgba(0, 0, 0, 0.12), 0 4px 2px -2px rgba(0, 0, 0, 0.2); }
+
+.header > ul { display: flex; justify-content: center; list-style: none; }
+
+.header a { text-decoration: none; color: white; font-size: 0.8em; }
+
+.active { border: 1px dashed black !important; background-color: cadetblue !important; }
+
+.header li { padding: 10px; }
+
+.header li:hover { background: gray; }
+
+.footer { color: #eff0e7; background: #08080f99; text-align: center; padding: 2px; margin: 0; font-size: 0.6em; }
+
+/*# sourceMappingURL=styles.css.map */
